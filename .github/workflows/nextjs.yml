@@ -79,7 +79,7 @@ jobs:
         run: npm run lint
       - name: Build with Next.js
         run: ${{ steps.detect-package-manager.outputs.runner }} next build
-        envv:
+        env:
           NEXT_PUBLIC_API_BASE_URL : $$ {{secrets.NEXT_PUBLIC_API_BASE_URL}}
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
