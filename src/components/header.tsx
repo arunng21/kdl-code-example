@@ -9,7 +9,7 @@ export function Header() {
                     <div className="flex items-center justify-between">
                         <div className="hidden md:flex rounded-full ml-2 mr-2">
                             <Image
-                                src="/static/images/ariel.png"
+                                src="./static/images/ariel.png"
                                 alt="Ariel Space Mission"
                                 width={56}
                                 height={56}

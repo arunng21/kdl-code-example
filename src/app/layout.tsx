@@ -30,7 +30,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
     >
       <body className="min-h-full flex flex-col">
         <Header />
-        <main id="main-content" className="flex-1 pt-[72px] bg-[url('/static/images/ariel_space_high_res1.jpg')] bg-cover bg-center bg-no-repeat">
+        <main id="main-content" className="flex-1 pt-[72px] bg-[url('./static/images/ariel_space_high_res1.jpg')] bg-cover bg-center bg-no-repeat">
           {children}
         </main>
       </body>
